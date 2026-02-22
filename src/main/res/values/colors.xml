@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary">#00E5A0</color>
+    <color name="primary_dark">#00B87A</color>
+    <color name="secondary">#7C6CF8</color>
+    <color name="accent_yellow">#FFC14E</color>
+    <color name="accent_red">#FF6B6B</color>
+    <color name="accent_blue">#38B6FF</color>
+
+    <!-- New Green Palette -->
+    <color name="green_1">#4CB156</color>
+    <color name="green_2">#428949</color>
+    <color name="green_3">#2A592E</color>
+    <color name="green_4">#00BF63</color>
+    <color name="green_5">#69DD74</color>
+    <color name="green_6">#51EC60</color>
+
+    <!-- Background -->
+    <color name="bg_dark">#0A0E1A</color>
+    <color name="surface">#111827</color>
+    <color name="surface2">#1A2235</color>
+    <color name="card">#161F30</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F0F4FF</color>
+    <color name="text_muted">#6B7A99</color>
+
+    <!-- System -->
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

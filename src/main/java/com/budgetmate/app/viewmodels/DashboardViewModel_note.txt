@@ -1,0 +1,5 @@
+// Add to DashboardViewModel — getAllTransactions() method:
+// private final LiveData<List<Transaction>> allTransactions;
+// In constructor: allTransactions = transactionRepo.getAllTransactions();
+// public LiveData<List<Transaction>> getAllTransactions() { return allTransactions; }
+// (Already implied in SummaryFragment above)

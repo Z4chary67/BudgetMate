@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Category" android:textColor="#333" android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="14dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Custom Label (if Other)" android:textColor="#333"
+        android:textSize="12sp" android:layout_marginBottom="4dp"/>
+    <EditText
+        android:id="@+id/etCustomLabel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="e.g. Netflix, Gym..."
+        android:visibility="gone"
+        android:layout_marginBottom="14dp"
+        android:inputType="text"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Budget Limit (₱)" android:textColor="#333"
+        android:textSize="12sp" android:layout_marginBottom="4dp"/>
+    <EditText
+        android:id="@+id/etBudgetLimit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="0.00"
+        android:inputType="numberDecimal"/>
+
+</LinearLayout>

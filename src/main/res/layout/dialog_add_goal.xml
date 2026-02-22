@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Goal Name" android:textColor="#333" android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+    <EditText
+        android:id="@+id/etGoalName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="e.g. Vacation Fund"
+        android:layout_marginBottom="14dp"
+        android:inputType="text"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Emoji" android:textColor="#333" android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+    <EditText
+        android:id="@+id/etEmoji"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="🎯"
+        android:layout_marginBottom="14dp"
+        android:inputType="text"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Target Amount (₱)" android:textColor="#333"
+        android:textSize="12sp" android:layout_marginBottom="4dp"/>
+    <EditText
+        android:id="@+id/etTargetAmount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="0.00"
+        android:layout_marginBottom="14dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Deadline" android:textColor="#333"
+        android:textSize="12sp" android:layout_marginBottom="4dp"/>
+    <EditText
+        android:id="@+id/etDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="MM/DD/YYYY"
+        android:inputType="date"/>
+
+</LinearLayout>

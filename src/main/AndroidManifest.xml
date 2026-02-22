@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BudgetMate"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BudgetMate">
+
+        <!-- Auth Activities -->
+        <activity android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BudgetMate.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.LoginActivity"
+            android:exported="false" />
+
+        <activity android:name=".activities.SignupActivity"
+            android:exported="false" />
+
+        <activity android:name=".activities.PinSetupActivity"
+            android:exported="false" />
+
+        <activity android:name=".activities.PinLoginActivity"
+            android:exported="false" />
+
+        <!-- Main Activity (hosts Navigation Component) -->
+        <activity android:name=".activities.MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Notification Channel setup -->
+        <receiver android:name=".utils.BudgetAlertReceiver"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
